@@ -17,7 +17,9 @@ namespace CarLotSimulator
             //Now that the Car class is created we can instanciate 3 new cars
             //Set the properties for each of the cars
             //Call each of the methods for each car
-
+            Car myVolvo = new Car("Volvo", "240DL", 1990, "rumble", "QUACK");
+            var myPontiac = new Car("pontiac", "the good one", 20, "", "le quack");
+            var myMustang = new Car("mustang", "the even better one", 2010, "grumble", "honking");
             //*************BONUS*************//
 
             // Set the properties utilizing the 3 different ways we learned about, one way for each car
